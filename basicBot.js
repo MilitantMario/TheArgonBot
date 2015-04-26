@@ -179,21 +179,21 @@
     var botCreatorIDs = ["3851534", "4105209"];
 
     var basicBot = {
-        version: "2.3.4",
+        version: "1.0",
         status: false,
-        name: "basicBot",
+        name: "TheArgonBot",
         loggedInID: null,
-        scriptLink: "https://rawgit.com/Yemasthui/basicBot/master/basicBot.js",
-        cmdLink: "http://git.io/245Ppg",
-        chatLink: "https://rawgit.com/Yemasthui/basicBot/master/lang/en.json",
+        scriptLink: "https://rawgit.com/MilitantMario/TheArgonBot/master/basicBot.js",
+        cmdLink: "https://github.com/MilitantMario/TheArgonBot/blob/master/commands.md",
+        chatLink: "https://rawgit.com/MilitantMario/TheArgonBot/master/lang/en.json",
         chat: null,
         loadChat: loadChat,
         retrieveSettings: retrieveSettings,
         retrieveFromStorage: retrieveFromStorage,
         settings: {
-            botName: "basicBot",
+            botName: "TheArgonbot",
             language: "english",
-            chatLink: "https://rawgit.com/Yemasthui/basicBot/master/lang/en.json",
+            chatLink: "https://rawgit.com/MilitantMario/TheArgonBot/master/lang/en.json",
             startupCap: 1, // 1-200
             startupVolume: 0, // 0-100
             startupEmoji: false, // true or false
@@ -272,9 +272,9 @@
             opLink: null,
             rulesLink: null,
             themeLink: null,
-            fbLink: null,
+            fbLink: https://www.facebook.com/theargonteam?ref=hl,
             youtubeLink: null,
-            website: null,
+            website: http://argongaming.net/,
             intervalMessages: [],
             messageInterval: 5,
             songstats: true,
